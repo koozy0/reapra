@@ -1,0 +1,41 @@
+<DOCTYPE html>
+<html>
+<head>
+  <title>BART</title>
+  <link href="css/reset.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>BART</h1>
+  </header>
+  <main>
+    <h2>Instructions</h2>
+    <p>
+      This is a game where your earnings increase each time you inflate the balloon.<br>
+      The balloon will pop and reset your prize pool for the round if you over-inflate it.<br>
+      Your total earnings will only be updated at the end of each round.
+    </p>
+    <div id="balloon">
+      <div id="balloon_top"></div>
+      <div id="balloon_bottom"></div>
+    </div>
+    <div id="inflate">
+      <button>Inflate</button>
+    </div>
+    <div id="next_round">
+      <button>Next Round</button>
+    </div>
+    <div id="scoreboard">
+      <div id="round_title">
+        <p id="round_header">Round: </p>
+        <p id="round">1</p>
+      </div>
+      <p>Your Total Earnings: </p>
+      <p id="score">$0.00</p>
+    </div>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
